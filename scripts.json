@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "deno bundle podedle.ts > ./dist/pokedle.js",
+    "run": "--watch --allow-net=pokeapi.co pokedle.ts",
+    "fmt": "deno fmt",
+    "lint": "deno lint",
+    "dev": "deno run --watch --allow-net=pokeapi.co pokedle.ts"
+  }
+}
